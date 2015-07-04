@@ -4,6 +4,7 @@ using System.Windows.Forms;
 /// <summary>
 /// # Will create a listview component that has editiable sub items
 ///  Ronny Frister gave an example of how to do this, i just added a few lines and added it to a class structure to make it more useable.
+/// Double buffering has been added to stop any gui flickering.
 /// </summary>
 class ListViewEditable : ListView
 {
